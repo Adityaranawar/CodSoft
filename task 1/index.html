@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="font-sans bg-gray-100">
+    <section style="background-image: url('coffee.png'); background-repeat: no-repeat; background-size: cover;">
+    <!-- Header -->
+    <header class="text-white py-4 font-mono";>
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Coffee Delight</div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">Menu</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class=" text-black text-center py-16 font-mono">
+        <div class="container mx-auto">
+            <h1 class="text-4xl font-bold mb-4">Welcome to Coffee Delight</h1>
+            <p class="text-lg">Discover the finest coffee experience in town.</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="container mx-auto mt-8 font-mono">
+        <h2 class="text-3xl font-bold mb-8 text-center">Our Menu</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Coffee Item 1 -->
+            <div class="p-6 rounded-lg shadow-md"; style="background-image: url('americano.png');">
+                <h3 class="text-white font-bold mb-2">Americano</h3>
+                <p class="text-white">A classic black coffee.</p>
+                <p class="text-white mt-2 font-bold">Rs.250</p>
+            </div>
+
+            <!-- Coffee Item 2 -->
+            <div class="rounded-lg shadow-md"; style="background-image: url('latte.png'); background-position: 10px 1px;">
+                <h3 class="text-white font-bold mb-2">Latte</h3>
+                <p class="text-white">Espresso with steamed milk and a touch of foam.</p>
+                <p class="text-white mt-2 font-bold">Rs.300</p>
+            </div>
+
+            <!-- Coffee Item 3 -->
+            <div class=" rounded-lg shadow-md "; style="background-image: url('cap.png'); background-position: 5px 7px;">
+                <h3 class="text-white font-bold mb-2">Cappuccino</h3>
+                <p class="text-white">Equal parts of espresso, steamed milk, and foam.</p>
+                <p class="text-white mt-2 font-bold">Rs.300</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class=" py-16 font-mono">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+            <p class="text-white">Visit us at 123 Coffee Street, Cityville. For inquiries, call +91 1234567891.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Coffee Delight. All rights reserved.</p>
+        </div>
+    </footer>
+</section>
+
+</body>
+</html>
